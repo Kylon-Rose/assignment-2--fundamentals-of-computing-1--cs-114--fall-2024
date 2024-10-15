@@ -80,3 +80,4 @@ public class Diamond {
             }
             System.out.println("*");
         }
+        scanner.close();       
