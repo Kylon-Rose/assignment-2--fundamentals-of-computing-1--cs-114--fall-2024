@@ -40,5 +40,21 @@ public class Diamond {
         // Even Case
             int middle = input / 2;
             int spaces = input;
+        //Upper Half
+            for (int column = 0; column < spaces - 1; column++) {
+                System.out.print(" ");
+            }
+            System.out.println("*");
 
+            for (int row = 1; row < middle; row++) {
+                for (int column = 0; column < spaces - row * 2; column++) {
+                    System.out.print(" ");
+                }
+                
+                for (int column = 0; column < 2 * row; column++) {
+                    System.out.print("* ");
+                }
+                System.out.println();
+            }
+        
 
