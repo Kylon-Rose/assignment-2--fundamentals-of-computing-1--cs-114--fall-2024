@@ -57,4 +57,10 @@ public class Diamond {
                 System.out.println();
             }
         
+        //Middle Half
+            for (int column = 0; column < input; column++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        
 
