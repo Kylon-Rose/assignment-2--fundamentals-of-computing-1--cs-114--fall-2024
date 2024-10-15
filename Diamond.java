@@ -6,7 +6,6 @@ public class Diamond {
 
         System.out.println("Please enter a number.");
         int input = scanner.nextInt();
-}
 
         if (input % 2 != 0){
         // Odd case
