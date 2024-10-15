@@ -8,6 +8,15 @@ public class Diamond {
         int input = scanner.nextInt();
 }
 
+        if (input % 2 != 0){
+        // Odd case
+            int middle = input / 2;
+        // Upper half
+            for (int row = 0; row <= middle; row++) {
+                for (int column = 0; column < middle - row; column++){
+                    System.out.print(" ");
+                }
+    
 
 
 
