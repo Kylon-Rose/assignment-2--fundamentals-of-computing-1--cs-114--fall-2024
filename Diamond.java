@@ -18,7 +18,12 @@ public class Diamond {
                 }
     
 
+                for (int column = 0; column < 2 * row + 1; column++) {
+                    System.out.print("*");
+                }
 
+                System.out.println();
+            }
 
 
 
