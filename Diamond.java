@@ -37,5 +37,8 @@ public class Diamond {
                 System.out.println();
             }
         } else {
+        // Even Case
+            int middle = input / 2;
+            int spaces = input;
 
 
